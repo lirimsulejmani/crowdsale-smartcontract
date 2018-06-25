@@ -1,0 +1,35 @@
+{
+  "name": "alfa-contracts",
+  "version": "8.4.0",
+  "description": "Smart Contracts V2 for Alfa Token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "cover": "solidity-coverage",
+    "view-cover": "opn ./coverage/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
+    "truffle": "^4.0.4",
+    "zeppelin-solidity": "^1.6.0"
+  },
+  "devDependencies": {
+    "big-integer": "^1.6.26",
+    "opn-cli": "^3.1.0",
+    "solidity-coverage": "^0.4.8"
+  },
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
+  "repository": "git+https://github.com/thebeetoken/smartcontracts.git",
+  "bugs": {
+    "url": "https://github.com/thebeetoken/smartcontracts/issues"
+  },
+  "homepage": "https://github.com/thebeetoken/smartcontracts#readme"
+}
